@@ -4,7 +4,7 @@
 #include "armor_test.h"
 #include "consumable_test.h"
 #include "weapon_test.h"
-
+#include "attackstrategy_test.h"
 
 
 int main(int argc, char **argv) {
