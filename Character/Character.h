@@ -45,7 +45,17 @@ class Character {
             int currXP = 0;
 	    int maxXP = 100;
         };
-
+	
+	~Character(){
+		for (auto c: consumables){
+			delete c;
+		}
+		
+		for (auto i: inventory){
+			delete i;
+		}
+	}
+	
         void setattackMethod(AttackStrategy * attackMethod) {
             this->attackMethod = attackMethod;
         }

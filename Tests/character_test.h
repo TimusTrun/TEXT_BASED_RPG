@@ -1,9 +1,22 @@
 #ifndef __CHARACTER_TEST_HPP__
 #define __CHARACTER_TEST_HPP__
 
-#include "../Character/Archer.cpp"
+/*#include "../Character/Archer.cpp"
 #include "../Character/Knight.cpp"
-#include "../Character/Mage.cpp"
+#include "../Character/Mage.cpp" */
+#include "../GameRunner/GameRunner.cpp"
+
+GameRunner * GameRunner::gameInstance = nullptr;
+
+TEST(GameRunnerTest, InstanceGameRunner) {
+  GameRunner* gameRunner1 = gameRunner1->getInstance();
+  EXPECT_TRUE(gameRunner1->getInstance() != nullptr);
+}
+
+TEST(GameRunnerTest, AreaTest){
+  GameRunner* gameRunner1 = gameRunner1->getInstance();
+  EXPECT_EQ(gameRunner1->getCurrentLocation(), FOREST);
+}
 
 TEST(CharacterTest, defaultArcherCharacter){
   Character* char2 = new Archer("Thomas", ARCHER);
@@ -107,6 +120,7 @@ TEST(CharacterTest, CustomCharacter){
   EXPECT_EQ(char8->getcurrXP(), 0);
 
 }
+
 
 
 #endif

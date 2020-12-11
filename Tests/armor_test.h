@@ -9,6 +9,14 @@
 #include "../Equipable/Robe.h"
 #include "../Equipable/SilkPants.h"
 
+class Armor;
+class ArmoredLeggings;
+class Chainmail;
+class Chestplate;
+class LeatherPants;
+class Robe;
+class SilkPants;
+
 TEST(ArmorTest, defaultArmor) {
   Armor* armor1 = new Armor();
   EXPECT_TRUE(!armor1->getChestOrPants());

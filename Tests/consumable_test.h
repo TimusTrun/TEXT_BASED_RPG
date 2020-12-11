@@ -3,6 +3,8 @@
 
 #include "../Consumable/Potion.h"
 
+class Potion;
+
 TEST(ConsumableTest, defaultConsumable) {
   Consumable* consum1 = new Consumable();
   EXPECT_EQ(consum1->getLevel(), 1);
