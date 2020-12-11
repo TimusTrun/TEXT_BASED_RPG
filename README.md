@@ -1,4 +1,4 @@
-![CI](https://github.com/cs100/final-project-smesd001-ypate030-ttran419/workflows/CI/badge.svg)
+![CI](https://github.com/cs100/final-project-smesd001-ypate030-ttran419/workflows/CI/badge.svg?branch=master)
 # Text-Based RPG
 
  > Authors: \<[Yug Patel](https://github.com/yugpatell)\>  \<[Thomas Tran](https://github.com/TimusTrun)\> \<[Scott Mesdjian](https://github.com/scottmez)\> 
