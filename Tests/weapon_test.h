@@ -5,6 +5,10 @@
 #include "../Equipable/Staff.h"
 #include "../Equipable/Bow.h"
 
+class Sword;
+class Staff;
+class Bow;
+
 TEST(WeaponTest, defaultWeapon) {
   Weapon* weapon1 = new Weapon();
   EXPECT_EQ(weapon1->getLevel(), 1);

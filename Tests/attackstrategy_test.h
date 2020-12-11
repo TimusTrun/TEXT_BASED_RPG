@@ -9,6 +9,10 @@
 #include "../Character/Knight.h"
 #include "../Character/Mage.h"
 
+class ArcherAttack;
+class KnightAttack;
+class MageAttack;
+
 
 TEST(AttackStrategyTest, AttackStrategyArcherLv1vsdrake) {
   Drake* drake1 = new Drake(1); //def = 3

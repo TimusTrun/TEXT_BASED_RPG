@@ -17,7 +17,6 @@
 #include "../Equipable/CreateArcherItemFactory.h"
 #include "../Equipable/CreateKnightItemFactory.h"
 
-
 using namespace std;
 
 enum areaType {FOREST, ARCTIC, DESERT, CAVE};
